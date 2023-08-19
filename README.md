@@ -67,7 +67,7 @@ While creating the VM, allow it to create a new Virtual Network (Vnet) and Subne
 
 ![image](https://github.com/SeanMcClendon/azure-networks-protocols/assets/142221948/bc3b403d-dec1-474d-a051-0165763efd21)
 
-15. FOr further observation of utility, from PowerShell, Ping "www.google.com -4". (the -4 indicates IPV4)
+15. For further observation of utility, from PowerShell, Ping "www.google.com -4". (the -4 indicates IPV4)
 
 ![image](https://github.com/SeanMcClendon/azure-networks-protocols/assets/142221948/e488396b-5756-4e46-b7d4-a33486663239)
 
@@ -93,15 +93,15 @@ While creating the VM, allow it to create a new Virtual Network (Vnet) and Subne
 ![image](https://github.com/SeanMcClendon/azure-networks-protocols/assets/142221948/f7d77b49-679e-435b-904f-2c78caa8f9e7)
 
 
-21. Observe Powerhell Timed out an WireShark is no longer receiving replies.
+21. Observe Powershell Timed out an WireShark is no longer receiving replies.
 
 ![image](https://github.com/SeanMcClendon/azure-networks-protocols/assets/142221948/d6d141a2-e8c2-4a0f-86c7-e0e8580f8bcc)
 
-22. Go back to VM-2 NSG and Allow ICMP traffic from the rule we just created, ultimately undoing what we jjust accomplished. 
+22. Go back to VM-2 NSG and Allow ICMP traffic from the rule we just created, ultimately undoing what we just accomplished. 
 23. Replies have begun again
 
 ![image](https://github.com/SeanMcClendon/azure-networks-protocols/assets/142221948/d122cb11-3849-444e-9975-d4344e3c5408)
-25. inPowerShell press cntrl+C to stop Pings
+25. In PowerShell press cntrl+C to stop Pings
 
 <h3>Part 2 (Observe SSH Traffic)</h3>
 
@@ -143,7 +143,7 @@ While creating the VM, allow it to create a new Virtual Network (Vnet) and Subne
 37. Oserve the immediate non-stop spam of traffic:
 
 <h2>Why do you think it’s non-stop spamming vs only showing traffic when you do an activity?<h2>
-Answer: because the RDP (protocol 3389) is constantly showing you a live stream from one computer to another, therefor traffic is always being transmitted
+Answer: Because the RDP (protocol 3389) is constantly showing you a live stream from one computer to another, therefor traffic is always being transmitted
 
 </p>
 <br />
